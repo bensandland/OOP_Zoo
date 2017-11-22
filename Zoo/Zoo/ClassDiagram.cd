@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Zoo.Zoo">
-    <Position X="4" Y="1.25" Width="1.5" />
+    <Position X="4" Y="1.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAQAAIAAAAAAAEAAAAAAEAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>Zoo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Animal">
     <Position X="9" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIQAAAAAAAAQAAAAAAAAAAAAFAAAAAAAAAAAABAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>

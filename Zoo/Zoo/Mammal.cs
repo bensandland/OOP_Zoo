@@ -7,5 +7,11 @@ namespace Zoo
 {
     public class Mammal : Animal
     {
+
+
+        public Mammal()
+        {
+            type = GetType().Name;
+        }
     }
 }

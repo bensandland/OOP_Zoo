@@ -7,5 +7,11 @@ namespace Zoo
 {
     public class Bird : Animal
     {
+
+
+        public Bird()
+        {
+            type = "Bird";
+        }
     }
 }

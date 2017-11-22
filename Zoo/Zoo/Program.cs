@@ -17,7 +17,7 @@ namespace Zoo
              * hvilket som helst framework såsom:
              * Forms, WPF, ASP.net etc.
              */
-            Console.WriteLine(zoo.ToString());
+            zoo.AddAnimal(new Tiger());
             Console.ReadKey();
         }
     }

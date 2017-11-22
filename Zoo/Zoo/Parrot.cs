@@ -7,5 +7,10 @@ namespace Zoo
 {
     public class Parrot : Bird
     {
+
+        public Parrot()
+        {
+            species = this.ToString();
+        }
     }
 }
