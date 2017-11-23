@@ -1,0 +1,11 @@
+Turtle = charles
+crocodile = dundee
+scorpion = Judas
+Frog = Gamabunta
+Parrot = Parrot Hilton
+Flamingo = Marty mcfly
+pengiun = tine
+elephant = jumbo
+tiger = king bangalash
+gorilla = harambe
+shark = week
