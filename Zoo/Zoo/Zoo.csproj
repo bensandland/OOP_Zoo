@@ -66,6 +66,7 @@
     <Compile Include="Animals\Mammal\Tiger.cs" />
     <Compile Include="Animals\Reptile\Turtle.cs" />
     <Compile Include="Animals\Amphibian.cs" />
+    <Compile Include="Singleton.cs" />
     <Compile Include="Zoo.cs" />
   </ItemGroup>
   <ItemGroup>

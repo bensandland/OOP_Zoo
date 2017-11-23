@@ -8,21 +8,17 @@ namespace Zoo
 {
     class Program
     {
+        static Zoo zoo = Singleton.Instance.zoo;
         static void Main(string[] args)
         {
+            zoo.AddAnimal(new Elephant());
             Menu menu = new Menu();
             /* Hold alt (console) menu relateret arbejde inde 
              * i denne class eller i en menu class.
              * På den måde kan vi let porte det over til et
              * hvilket som helst framework såsom:
              * Forms, WPF, ASP.net etc.
-
-            Funtion below doesn't work atm
-            zoo.AddAnimal(new Tiger()
-            {
-                weightKG = Tiger 
-            });
-            */
+             */
             switch (menu.Start())
             {
                 case "1":

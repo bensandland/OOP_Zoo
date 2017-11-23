@@ -8,8 +8,8 @@ namespace Zoo
 {
     class Menu
     {
-        Zoo zoo = new Zoo();
-
+        Zoo zoo = Singleton.Instance.zoo;
+       
         /// <summary>
         /// Outputs given string with a color
         /// </summary>
