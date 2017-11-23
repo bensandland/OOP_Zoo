@@ -19,21 +19,23 @@ namespace Zoo
              * hvilket som helst framework såsom:
              * Forms, WPF, ASP.net etc.
              */
-            switch (menu.Start())
+            switch (menu.MainMenu())
             {
-                case "1":
-                    menu.Print("Animals in zoo", ConsoleColor.Green);
+                case 1: //List all animals
                     menu.ListAnimals(zoo.animals);
                     Console.ReadKey();
                     break;
-                case "2":
-                    menu.Print("Animals by type", ConsoleColor.Green);
+                case 2: // List Animals By Type
+                    menu.ListAnimals(menu.Request("Please enter a type"));
                     //
                     Console.ReadKey();
                     break;
-                case "3":
-                    menu.Print("Animals by name", ConsoleColor.Green);
+                case 3: // List Animals By Name
+                    menu.ListAnimals(menu.Request("Please enter a name"));
                     Console.ReadKey();
+                    break;
+                case 4: // List Animals By Species
+                    menu.ListAnimals(menu.Request("Please enter a species"));
                     break;
             }
             Console.ReadKey();
