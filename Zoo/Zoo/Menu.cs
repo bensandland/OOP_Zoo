@@ -23,17 +23,6 @@ namespace Zoo
             Console.ResetColor();
         }
 
-        public string Start()
-        {
-            Print("Welcome." + "\n" + "Please input the feature you wish to use", ConsoleColor.Yellow);
-            Print("1. List all animals in the zoo", ConsoleColor.Yellow);
-            Print("2. List all animals by type", ConsoleColor.Yellow);
-            Print("3. List all animals by name", ConsoleColor.Yellow);
-
-            string choice = Console.ReadLine();
-            return choice;
-        }
-
         public void ListAnimals(List<Animal> animals)
         {
             int i = 0;
@@ -67,13 +56,20 @@ namespace Zoo
             });
         }
 
-        private void MainMenu(string var)
+        public int MainMenu()
         {
-            //MainMenu
+            // MainMenu
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Title("Main Menu");
-            Console.WriteLine("1. ");
+            Print("1. List all animals");
+            Print("2. List all animals by type");
+            Print("3. List all animals by name");
+            Console.ResetColor();
+
+
+            int choice = int.Parse(Console.ReadLine());
+            return choice;
         }
 
         private void Title(string title)
