@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zoo.Animals.Amphibian
+namespace Zoo
 {
-    class Salamander
+    public class Salamander : Amphibian
     {
+
+
+
     }
 }
