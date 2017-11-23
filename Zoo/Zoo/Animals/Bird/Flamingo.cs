@@ -7,5 +7,10 @@ namespace Zoo
 {
     public class Flamingo : Bird
     {
+        public Flamingo()
+        {
+            weightKG = 
+        }
+
     }
 }
