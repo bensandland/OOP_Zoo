@@ -24,6 +24,7 @@ namespace Zoo
         public string type { get { return _type; } set { _type = value; } }
         public double weightG { get { return _weight * 1000; } set { _weight = value / 1000; } } // To convert to gram
         public double weightKG { get { return _weight; } set { _weight = value; } }
+
         /*
          * Constructor
          */

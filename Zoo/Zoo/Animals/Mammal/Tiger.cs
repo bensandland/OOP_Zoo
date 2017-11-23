@@ -7,5 +7,6 @@ namespace Zoo
 {
     public class Tiger : Mammal
     {
+
     }
 }

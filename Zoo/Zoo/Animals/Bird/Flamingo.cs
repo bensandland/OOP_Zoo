@@ -9,7 +9,10 @@ namespace Zoo
     {
         public Flamingo()
         {
-            weightKG = 
+            name = "Marty McFly";
+            canFly = true;
+            wingSpanCM = 100;
+            GenerateWeight(1.2, 4.1); // Set weight
         }
 
     }
