@@ -26,16 +26,15 @@ namespace Zoo
                     Console.ReadKey();
                     break;
                 case 2: // List Animals By Type
-                    menu.ListAnimals(menu.Request("Please enter a type"));
-                    //
+                    menu.ListAnimals(zoo.GetAnimalsByType(menu.Request("Please enter a type")));
                     Console.ReadKey();
                     break;
                 case 3: // List Animals By Name
-                    menu.ListAnimals(menu.Request("Please enter a name"));
+                    menu.ListAnimals(zoo.GetAnimalsByName(menu.Request("Please enter a name")));
                     Console.ReadKey();
                     break;
                 case 4: // List Animals By Species
-                    menu.ListAnimals(menu.Request("Please enter a species"));
+                    menu.ListAnimals(zoo.GetAnimalsBySpecies(menu.Request("Please enter a species")));
                     break;
             }
             Console.ReadKey();

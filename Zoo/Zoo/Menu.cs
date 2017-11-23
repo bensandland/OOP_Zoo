@@ -23,6 +23,33 @@ namespace Zoo
             Console.ResetColor();
         }
 
+        private void Title(string title)
+        {
+            Console.WriteLine("*****" + title + "*****");
+        }
+
+        public int MainMenu()
+        {
+            // MainMenu
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Title("Main Menu");
+            Print("1. List all animals");
+            Print("2. List all animals by type");
+            Print("3. List all animals by name");
+            Console.ResetColor();
+
+            int choice = int.Parse(Console.ReadLine());
+            return choice;
+        }
+
+        public string Request(string paramater)
+        {
+            Console.WriteLine(paramater);
+            string input = Console.ReadLine();
+            return input;
+        }
+
         public void ListAnimals(List<Animal> animals)
         {
             int i = 0;
@@ -54,27 +81,6 @@ namespace Zoo
                 i++;
                 Print(i + ": " + animal.name, ConsoleColor.Green);
             });
-        }
-
-        public int MainMenu()
-        {
-            // MainMenu
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Title("Main Menu");
-            Print("1. List all animals");
-            Print("2. List all animals by type");
-            Print("3. List all animals by name");
-            Console.ResetColor();
-
-
-            int choice = int.Parse(Console.ReadLine());
-            return choice;
-        }
-
-        private void Title(string title)
-        {
-            Console.WriteLine("*****" + title + "*****");
         }
     }
 }
