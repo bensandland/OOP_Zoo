@@ -7,9 +7,6 @@ namespace Zoo
 {
     public abstract class Mammal : Animal
     {
-        
-
-
 
         public Mammal()
         {
