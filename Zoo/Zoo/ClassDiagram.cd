@@ -21,13 +21,6 @@
       <FileName>Animals\Mammal.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Zoo.Amphibian">
-    <Position X="7.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Animals\Amphibian.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Zoo.Fish">
     <Position X="19.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
@@ -38,7 +31,7 @@
   <Class Name="Zoo.Bird">
     <Position X="11.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAAEAAAABCAAAAgAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAAAAAAEAAAABCAAAAhAAAAAAAAAAAAA=</HashCode>
       <FileName>Animals\Bird.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -131,6 +124,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animals\Bird\Flamingo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Amphibian">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animals\Amphibian.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
