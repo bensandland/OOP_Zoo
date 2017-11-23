@@ -17,6 +17,7 @@ namespace Zoo
         /// <param name="color"></param>        
         public void Print(string msg, ConsoleColor color = ConsoleColor.Gray)
         {
+            //zoo.AddAnimal(new Tiger());
             Console.ForegroundColor = color;
             Console.WriteLine(msg);
             Console.ResetColor();
@@ -33,13 +34,14 @@ namespace Zoo
             return choice;
         }
 
-        public void AllAnimals()
+        public void ListAnimals(List<Animal> animals)
         {
-            int num = 1;
-            foreach (Animal animal in zoo.animals)
+            int i = 0;
+            animals.ForEach(delegate (Animal animal)
             {
-                Print(num + ":" + " " + animal, ConsoleColor.Green);
-            }
-        }   
+                i++;
+                Print(i + ": " + animal.species, ConsoleColor.Green);
+            });
+        }
     }
 }

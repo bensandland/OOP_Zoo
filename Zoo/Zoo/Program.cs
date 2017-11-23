@@ -23,17 +23,18 @@ namespace Zoo
             {
                 case "1":
                     menu.Print("Animals in zoo", ConsoleColor.Green);
-                    menu.AllAnimals();
+                    menu.ListAnimals(zoo.animals);
                     Console.ReadKey();
                     break;
                 case "2":
                     menu.Print("Animals by type", ConsoleColor.Green);
+                    //
                     Console.ReadKey();
                     break;
                 case "3":
                     menu.Print("Animals by name", ConsoleColor.Green);
                     Console.ReadKey();
-                    break;                
+                    break;
             }
             Console.ReadKey();
         }

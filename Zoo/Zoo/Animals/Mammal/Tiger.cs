@@ -10,7 +10,7 @@ namespace Zoo
         public Tiger()
         {
             name = "King Bangalash";
-
+            species = GetType().Name;
         }
     }
 }

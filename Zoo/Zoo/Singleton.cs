@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Singleton : Zoo
+    class Singleton
     {
         private static Singleton instance;
 
