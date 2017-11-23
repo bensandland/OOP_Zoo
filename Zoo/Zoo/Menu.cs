@@ -37,11 +37,27 @@ namespace Zoo
         public void ListAnimals(List<Animal> animals)
         {
             int i = 0;
+            Print("", ConsoleColor.Green);
             animals.ForEach(delegate (Animal animal)
             {
                 i++;
                 Print(i + ": " + animal.species, ConsoleColor.Green);
             });
+        }
+
+
+        private void MainMenu(string var)
+        {
+            //MainMenu
+            Console.Clear();
+            Title("Main Menu");
+            Print("1. ", ConsoleColor.Gray);
+            Console.ForegroundColor = ConsoleColor.Gray;
+        }
+
+        private void Title(string title, ConsoleColor color = ConsoleColor.Gray)
+        {
+            Print("*****" + title + "*****", color);
         }
     }
 }
