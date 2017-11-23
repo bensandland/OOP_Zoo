@@ -15,7 +15,7 @@ namespace Zoo
 
         public Zoo()
         {
-            animals.Add(new Tiger()); // Yay my science worked. The cosine, of your route, divided by... #Heimerdonger #E   ureka
+            animals.Add(new Tiger()); // Yay my science worked. The cosine, of your route, divided by... #Heimerdonger #Eureka
         }
 
         public void AddAnimal(Animal animal)

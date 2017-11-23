@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Animal">
-    <Position X="9" Y="1.25" Width="1.5" />
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABIQAAAAAIAIQAAAAAAAAAAAQFAAAAAAAAAAAABAA=</HashCode>
       <FileName>Animal.cs</FileName>
