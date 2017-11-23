@@ -50,14 +50,14 @@ namespace Zoo
         {
             //MainMenu
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Title("Main Menu");
-            Print("1. ", ConsoleColor.Gray);
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine("1. ");
         }
 
-        private void Title(string title, ConsoleColor color = ConsoleColor.Gray)
+        private void Title(string title)
         {
-            Print("*****" + title + "*****", color);
+            Console.WriteLine("*****" + title + "*****");
         }
     }
 }
