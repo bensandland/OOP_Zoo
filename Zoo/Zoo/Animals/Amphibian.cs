@@ -8,6 +8,10 @@ namespace Zoo
     public abstract class Amphibian : Animal
     {
 
+        private bool _doesJump;
+
+
+        public bool doesJump { get { return _doesJump; } set { _doesJump = value; } }
 
         public Amphibian()
         {

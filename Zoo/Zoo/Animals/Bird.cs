@@ -18,5 +18,11 @@ namespace Zoo
         {
             type = "Bird";
         }
+
+        public void GenerateWingspan(double minWidth, double maxWidth)
+        {
+            Random random = new Random();
+            double weight = random.NextDouble() * (maxWidth - minWidth) + minWidth;
+        }
     }
 }
