@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Vertebrate : Animal
+    public abstract class Amphibian : Animal
     {
 
 
-        public Vertebrate()
+        public Amphibian()
         {
             type = GetType().Name;
         }

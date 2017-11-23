@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Frog : Vertebrate
+    public class Frog : Amphibian
     {
     }
 }
