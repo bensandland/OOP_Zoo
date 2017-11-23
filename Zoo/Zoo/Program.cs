@@ -10,18 +10,35 @@ namespace Zoo
     {
         static void Main(string[] args)
         {
-            Zoo zoo = new Zoo();
+            Menu menu = new Menu();
             /* Hold alt (console) menu relateret arbejde inde 
              * i denne class eller i en menu class.
              * På den måde kan vi let porte det over til et
              * hvilket som helst framework såsom:
              * Forms, WPF, ASP.net etc.
-             */
+
+            Funtion below doesn't work atm
             zoo.AddAnimal(new Tiger()
             {
-                weightKG = Tiger
+                weightKG = Tiger 
             });
-
+            */
+            switch (menu.Start())
+            {
+                case "1":
+                    menu.Print("Animals in zoo", ConsoleColor.Green);
+                    menu.AllAnimals();
+                    Console.ReadKey();
+                    break;
+                case "2":
+                    menu.Print("Animals by type", ConsoleColor.Green);
+                    Console.ReadKey();
+                    break;
+                case "3":
+                    menu.Print("Animals by name", ConsoleColor.Green);
+                    Console.ReadKey();
+                    break;                
+            }
             Console.ReadKey();
         }
     }

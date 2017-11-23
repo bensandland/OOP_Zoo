@@ -8,7 +8,7 @@ namespace Zoo
     public class Zoo
     {
         //List all private variables
-        private List<Animal> _animals;
+        private List<Animal> _animals = new List<Animal>();
 
         //List all get-setters.
         public List<Animal> animals { get { return _animals; } set { _animals = value; } }        
