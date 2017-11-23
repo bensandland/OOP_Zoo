@@ -49,18 +49,18 @@
     <Compile Include="Animals\Mammal\Elephant.cs" />
     <Compile Include="Animals\Fish.cs" />
     <Compile Include="Animals\Bird\Flamingo.cs" />
-    <Compile Include="Animals\Vertebrate\Frog.cs" />
+    <Compile Include="Animals\Amphibian\Frog.cs" />
     <Compile Include="Animals\Mammal.cs" />
     <Compile Include="Animals\Bird\Parrot.cs" />
     <Compile Include="Animals\Bird\Penguin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Animals\Reptile.cs" />
-    <Compile Include="Animals\Vertebrate\Scorpion.cs" />
+    <Compile Include="Animals\Amphibian\Scorpion.cs" />
     <Compile Include="Animals\Fish\Shark.cs" />
     <Compile Include="Animals\Mammal\Tiger.cs" />
     <Compile Include="Animals\Reptile\Turtle.cs" />
-    <Compile Include="Animals\Vertebrate.cs" />
+    <Compile Include="Animals\Amphibian.cs" />
     <Compile Include="Zoo.cs" />
   </ItemGroup>
   <ItemGroup>

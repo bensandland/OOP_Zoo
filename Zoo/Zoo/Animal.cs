@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Animal
+    public abstract class Animal
     {
         /*
          * Internal values.

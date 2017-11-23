@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Bird : Animal
+    public abstract class Bird : Animal
     {
         private bool _canFly;
         private double _wingSpan;

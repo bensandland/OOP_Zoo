@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Mammal : Animal
+    public abstract class Mammal : Animal
     {
         
 

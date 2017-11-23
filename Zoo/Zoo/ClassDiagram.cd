@@ -10,7 +10,7 @@
   <Class Name="Zoo.Animal">
     <Position X="9" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIQAAAAAAAAQAAAAAAAAAAAAFAAAAAAAAAAAABAA=</HashCode>
+      <HashCode>AAABIQAAAAAIAIQAAAAAAAAAAAQFAAAAAAAAAAAABAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,31 +21,31 @@
       <FileName>Animals\Mammal.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Zoo.Vertebrate">
+  <Class Name="Zoo.Amphibian">
     <Position X="7.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Animals\Vertebrate.cs</FileName>
+      <FileName>Animals\Amphibian.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Fish">
     <Position X="19.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>EAAgAAAAABAAACAACAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>Animals\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Bird">
     <Position X="11.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAAAAAAEAAAABCAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Animals\Bird.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Reptile">
     <Position X="4" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAABAAoAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAA=</HashCode>
       <FileName>Animals\Reptile.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -81,7 +81,7 @@
     <Position X="8.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Animals\Vertebrate\Frog.cs</FileName>
+      <FileName>Animals\Amphibian\Frog.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Flamingo">
@@ -116,7 +116,7 @@
     <Position X="6.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Animals\Vertebrate\Scorpion.cs</FileName>
+      <FileName>Animals\Amphibian\Scorpion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Shark">
