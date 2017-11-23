@@ -56,7 +56,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Animals\Reptile.cs" />
-    <Compile Include="Animals\Amphibian\Scorpion.cs" />
     <Compile Include="Animals\Fish\Shark.cs" />
     <Compile Include="Animals\Mammal\Tiger.cs" />
     <Compile Include="Animals\Reptile\Turtle.cs" />
