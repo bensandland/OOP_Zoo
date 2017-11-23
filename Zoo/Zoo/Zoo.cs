@@ -25,17 +25,17 @@ namespace Zoo
 
         public List<Animal> GetAnimalsByType(string passedType)
         {
-            return animals.Where(animal => animal.type.Contains("/" + passedType + "/"));
+            return animals.Where(animal => animal.type.Contains("/" + passedType + "/")).ToList();
         }
 
         public List<Animal> GetAnimalsByName(string passedName)
         {
-            return animals.Where(animal => animal.name.Contains("/" + passedName + "/"));
+            return animals.Where(animal => animal.name.Contains("/" + passedName + "/")).ToList();
         }
 
         public List<Animal> GetAnimalsBySpecies(string passedSpecies)
         {
-            return animals.Where(animal => animal.species.ToLower().Contains("/" + passedSpecies.ToLower() + "/"));
+            return animals.Where(animal => animal.species.ToLower().Contains("/" + passedSpecies.ToLower() + "/")).ToList();
         }
     }
 }
