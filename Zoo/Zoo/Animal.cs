@@ -14,7 +14,7 @@ namespace Zoo
         private string _type = "None specified"; //Mammal? Fish? Vertebrate? Bird? Reptile?
         private string _species = "None specified"; //Tiger?Parrot?
         private string _color = "None specified";
-        private double _weight;
+        private double _weight = 0.0;
 
         /*
          * Get-setters of variables. (remove either get or set in order to disable getting or setting.) if you want both, change to private.
