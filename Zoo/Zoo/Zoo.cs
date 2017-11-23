@@ -23,19 +23,19 @@ namespace Zoo
             animals.Add(animal);
         }
 
-        public Animal[] GetAnimalsByType(string passedType)
+        public List<Animal> GetAnimalsByType(string passedType)
         {
-            return animals.Where(animal => animal.type == passedType).ToArray();
+            return animals.Where(animal => animal.type.Contains("/" + passedType + "/"));
         }
 
-        public Animal[] GetAnimalsByName(string passedName)
+        public List<Animal> GetAnimalsByName(string passedName)
         {
-            return animals.Where(animal => animal.name == passedName).ToArray();
+            return animals.Where(animal => animal.name.Contains("/" + passedName + "/"));
         }
 
-        public Animal[] GetAnimalsBySpecies(string passedSpecies)
+        public List<Animal> GetAnimalsBySpecies(string passedSpecies)
         {
-            return animals.Where(animal => animal.species == passedSpecies).ToArray();
+            return animals.Where(animal => animal.species.ToLower().Contains("/" + passedSpecies.ToLower() + "/"));
         }
     }
 }
