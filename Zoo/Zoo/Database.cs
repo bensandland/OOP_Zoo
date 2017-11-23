@@ -20,11 +20,8 @@ namespace Zoo
         public string connString;
         public static MySqlConnection conn = null;
         private Regex rGX = new Regex("[?]+");
-        internal Nullable<int> tmp;
-
         internal Database(string[] Login)
         {
-
             LoginArr = Login;
             resetDB(Login);
         }
