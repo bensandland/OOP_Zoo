@@ -10,8 +10,9 @@ namespace Zoo
         public Flamingo()
         {
             name = "Marty McFly";
+            species = GetType().Name;
             canFly = true;
-            wingSpanCM = 100;
+            GenerateWingspan(89.8, 100.4);
             GenerateWeight(1.2, 4.1); // Set weight
         }
 

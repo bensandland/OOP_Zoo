@@ -7,6 +7,10 @@ namespace Zoo
 {
     public class Tiger : Mammal
     {
+        public Tiger()
+        {
+            name = "King Bangalash";
 
+        }
     }
 }

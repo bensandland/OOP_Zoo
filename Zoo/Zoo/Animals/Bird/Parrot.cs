@@ -7,10 +7,13 @@ namespace Zoo
 {
     public class Parrot : Bird
     {
-
         public Parrot()
         {
-            species = this.ToString();
+            name = "Parrot Hilton";
+            species = this.GetType().Name;
+            canFly = true;
+            GenerateWingspan(65.1, 74.3);
+            GenerateWeight(1.8, 4.1);
         }
     }
 }
