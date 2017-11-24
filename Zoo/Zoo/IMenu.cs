@@ -12,6 +12,6 @@ namespace Zoo
 
         int MainMenu();
 
-        int ListAnimals(List<Animal> animals);
+        void ListAnimals(List<Animal> animals);
     }
 }
