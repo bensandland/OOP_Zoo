@@ -7,9 +7,9 @@ namespace Zoo
 {
     public class Flamingo : Bird
     {
-        public Flamingo()
+        public Flamingo(string name)
         {
-            name = "Marty McFly";
+            this.name = name;
             species = GetType().Name;
             canFly = true;
             GenerateWingspan(89.8, 100.4);
