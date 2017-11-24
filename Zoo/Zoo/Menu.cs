@@ -53,7 +53,7 @@ namespace Zoo
         public void ListAnimals(List<Animal> animals)
         {
             int i = 0;
-            Print("All animals:", ConsoleColor.Green);
+            Console.WriteLine("Listing all animals.");
             animals.ForEach(delegate (Animal animal)
             {
                 i++;
@@ -64,22 +64,36 @@ namespace Zoo
         public void ListAnimalType(List<Animal> animals)
         {
             int i = 0;
-            Print("All animal types:", ConsoleColor.Green);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Now showing all '" + animals[0].type + "'s.");
             animals.ForEach(delegate (Animal animal)
             {
                 i++;
-                Print(i + ": " + animal.type, ConsoleColor.Green);
+                Console.WriteLine(animal.name + ", the " + animal.species);
             });
         }
 
         public void ListAnimalName(List<Animal> animals)
         {
             int i = 0;
-            Print("All animal names:", ConsoleColor.Green);
+            Console.WriteLine("Now showing all animals named '" + animals[0].name + "'.");
+            
             animals.ForEach(delegate (Animal animal)
             {
                 i++;
-                Print(i + ": " + animal.name, ConsoleColor.Green);
+                Console.WriteLine(animal.name + ", the " + animal.species);
+            });
+        }
+
+        public void ListAnimalSpecies(List<Animal> animals)
+        {
+            int i = 0;
+            Console.WriteLine("Now showing all '" + animals[0].species + "'.");
+
+            animals.ForEach(delegate (Animal animal)
+            {
+                i++;
+                Console.WriteLine(animal.name + ", the " + animal.species);
             });
         }
     }

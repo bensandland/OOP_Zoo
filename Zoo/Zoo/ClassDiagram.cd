@@ -24,7 +24,7 @@
   <Class Name="Zoo.Fish">
     <Position X="19.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAgAAAAABAAACAACAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAABAAACBACAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>Animals\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -108,7 +108,7 @@
   <Class Name="Zoo.Program">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
