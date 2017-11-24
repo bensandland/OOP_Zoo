@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Menu
+    class Menu : IMenu
     {
         Zoo zoo = Singleton.Instance.zoo;
        
@@ -43,9 +43,9 @@ namespace Zoo
             return choice;
         }
 
-        public string Request(string paramater)
+        public string Request(string parameter)
         {
-            Console.WriteLine(paramater);
+            Console.WriteLine(parameter);
             string input = Console.ReadLine();
             return input;
         }
