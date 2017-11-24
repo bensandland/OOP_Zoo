@@ -7,5 +7,9 @@ namespace Zoo
 {
     public class Chimpanzee : Mammal
     {
+        public Chimpanzee()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

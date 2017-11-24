@@ -7,5 +7,9 @@ namespace Zoo
 {
     public class Frog : Amphibian
     {
+        public Frog()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

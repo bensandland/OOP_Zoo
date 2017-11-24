@@ -16,5 +16,10 @@ namespace Zoo
             carnivorous = true;
             GenerateWeight(385, 635);
         }
+
+        public Shark()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

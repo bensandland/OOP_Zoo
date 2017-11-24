@@ -8,8 +8,9 @@ namespace Zoo
 {
     public class Salamander : Amphibian
     {
-
-
-
+        public Salamander()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
