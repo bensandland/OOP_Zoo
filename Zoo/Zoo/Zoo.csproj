@@ -57,7 +57,6 @@
     <Compile Include="Animals\Mammal.cs" />
     <Compile Include="Animals\Bird\Parrot.cs" />
     <Compile Include="Animals\Bird\Penguin.cs" />
-    <Compile Include="Class2.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="IMenu.cs" />
     <Compile Include="Menu.cs" />

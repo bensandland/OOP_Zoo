@@ -19,7 +19,7 @@ namespace Zoo
         /*
          * Get-setters of variables. (remove either get or set in order to disable getting or setting.) if you want both, change to private.
          */
-        public string name { get { return _name; } protected set { _name = value; } }
+        public string name { get { return _name; } set { _name = value; } }
         public string species { get { return _species; } set { _species = value; } }
         public string type { get { return _type; } set { _type = value; } }
         public double weightG { get { return _weight * 1000; } set { _weight = value / 1000; } } // To convert to gram

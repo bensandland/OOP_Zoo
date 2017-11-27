@@ -11,7 +11,7 @@ namespace Zoo
         static Zoo zoo = Singleton.Instance.zoo;
         static void Main(string[] args)
         {
-            zoo.AddAnimal(new Elephant());
+            zoo.AddAnimal(new Elephant() { name = "anton"; });
             Menu menu = new Menu();
             /* Hold alt (console) menu relateret arbejde inde 
              * i denne class eller i en menu class.

@@ -88,6 +88,7 @@ namespace Zoo
         public void ListAnimalSpecies(List<Animal> animals)
         {
             int i = 0;
+            animals = animals.OrderBy(c => c.species).ThenByDescending(c => c.name).ToList();
             Console.WriteLine("Now showing all '" + animals[0].species + "'.");
 
             animals.ForEach(delegate (Animal animal)
